@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-import About from './components/About';
-import ContactForm from './components/Contact';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio'
+import About from './pages/about';
+import ContactForm from './pages/contact';
+import Resume from './pages/resume';
+import Portfolio from './pages/portfolio'
 
 function App() {
 

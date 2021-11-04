@@ -4,9 +4,9 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #1b315b;
-  --secondary: #3da3ce;
-  --tertiary: white;
+  --primary: #F9F9FA;
+  --secondary: #B7BCBD;
+  --tertiary: #55626E;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -18,6 +18,11 @@ main {
 
 * {
   box-sizing: border-box;
+}
+
+.font-link {
+  font-family: "Bebas Neue", cursive;
+  color: var(--tertiary);
 }
 
 html,
@@ -69,7 +74,7 @@ h6 {
 }
 
 .hero-item {
-  border: 5px solid white;
+  border: 5px solid var(--tertiary);
   height: 450px;
   width: 350px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
@@ -86,27 +91,14 @@ h6 {
   border-radius: 25px;
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
-  border: 5px solid white;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-top: 30px;
-}
-
-.hero-item img {
-  border: 5px solid #3da3ce;
-  width: 100%;
-  height: 100%;
+  border: 5px solid var(--tertiary);
 }
 
 p {
   font-style: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1rem;
   margin-top: 0;
+  color: var(--tertiary);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -283,21 +275,6 @@ textarea {
   z-index: 1;
 }
 
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
 button {
   background: var(--primary);
   border: 0;
@@ -324,7 +301,7 @@ a {
 }
 
 body {
-  background-color: #1b315b;
+  background-color: var(--primary);
 }
 
 header {
@@ -335,20 +312,20 @@ header {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-color: #1b315b;
+  background-color: var(--primary);
 }
 
 header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: white;
+  color: var(--tertiary);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 header a {
   text-decoration: none;
-  color: white;
+  color: var(--tertiary);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -380,7 +357,7 @@ header nav ul li a {
 }
 
 .hero-item {
-  border: 5px solid white;
+  border: 5px solid var(--tertiary);
   height: 450px;
   width: 350px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
@@ -405,23 +382,23 @@ header nav ul li a {
 }
 
 .section-text {
-  background-color: #3da3ce;
+  background-color: var(--secondary);
   border-radius: 25px;
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
-  border: 5px solid white;
+  border: 5px solid var(--tertiary);
 }
 
 .section-text h2 {
   text-align: center;
 
   padding-top: 40px;
-  color: white;
+  color: var(--tertiary);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .section-text p {
   padding-bottom: 10px;
-  color: white;
+  color: var(--tertiary);
   font-size: larger;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
@@ -432,12 +409,12 @@ header nav ul li a {
   align-items: center;
   justify-content: space-around;
   margin: 100px;
-  background-color: #3da3ce;
+  background-color: var(--secondary);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 25px;
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
-  border: 5px solid white;
+  border: 5px solid var(--tertiary);
 }
 
 .contact-style {
@@ -451,10 +428,10 @@ header nav ul li a {
   border-radius: 25px;
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
-  border: 5px solid white;
+  border: 5px solid var(--tertiary);
   padding-right: 500px;
   padding-top: 20px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .section-2 h2,
@@ -462,7 +439,7 @@ h3 {
   text-align: center;
   margin-bottom: 50px;
   padding-top: 40px;
-  color: white;
+  color: var(--tertiary);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -488,12 +465,12 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 25px;
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
-  border: 5px solid white;
+  border: 5px solid var(--tertiary);
 }
 
 .section-3-contact a {
   text-decoration: none;
-  color: white;
+  color: var(--tertiary);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   font-size: larger;
@@ -501,14 +478,14 @@ h3 {
 }
 
 .section-3 h2 {
-  color: white;
+  color: var(--tertiary);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .section-3 p,
 a {
   text-decoration: none;
-  color: white;
+  color: var(--tertiary);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   font-size: larger;

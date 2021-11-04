@@ -1,14 +1,19 @@
 import React from 'react';
 
-import snowboarding from "../../assets/bigbear-gif.GIF";
-import selfie from "../../assets/slc-pic.jpg";
-import mammoth from "../../assets/mammoth-gif.GIF";
+import snowboarding from '../assets/bigbear-gif.GIF'
+import selfie from '../assets/slc-pic.jpg'
+import mammoth from '../assets/mammoth-gif.GIF'
+
 
 
 function About() {
     return (
         <section className="my-5">
-          <h1 id="about">Who am I?</h1>
+          <h1 id="about">
+            <span className='font-link'>
+              Who am I?
+            </span>
+          </h1>
           <div class="hero">
         <div class="hero-item hero-item-1">
           <img src={snowboarding} alt="A selfie of me in Salt Lake City" />
@@ -22,7 +27,9 @@ function About() {
       </div>
       <br/>
       <br/>
+        <span className='font-link'>
           <p>Welcome! My name is Chase McQuown, and I'm currently a student of the coding bootcamp at UT Austin. I reside in Huntington Beach, CA and love skateboarding, fishing, snowboarding, hiking, camping, the ocean, and all things outdoors. I also have a newly discovered love/hate relationship with coding.</p>
+        </span>
         </section>
     );
 };
