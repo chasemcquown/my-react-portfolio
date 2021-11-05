@@ -1,7 +1,7 @@
 import React from 'react';
 
-import spotty from '../assets/bw-spotty.jpg'
-import selfie from '../assets/snowbird.jpeg'
+import home from '../assets/home-pier.jpg'
+import selfie from '../assets/slc-pic.jpg'
 import mammoth from '../assets/mammoth-storm.jpg'
 
 
@@ -11,7 +11,7 @@ function About() {
         <section className="my-5">
           <div class="hero">
         <div class="hero-item hero-item-1">
-          <img src={spotty} alt="A selfie of me in Salt Lake City" />
+          <img src={home} alt="A selfie of me in Salt Lake City" />
         </div> 
         <div class="hero-item hero-item-3">
           <img src={mammoth} alt="Trees and clouds from Devil's Post Pile in Mammoth Lakes, CA" />

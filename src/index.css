@@ -50,7 +50,7 @@ h6 {
 
 h1 {
   font-size: 2.2rem;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.9)
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9)
 }
 
 h2 {
@@ -432,11 +432,24 @@ header nav ul li a {
   box-shadow: 5px 5px 12px var(--tertiary);
   margin-top: 10px;
   border: 5px solid var(--secondary);
-  padding-top: 20px;
+  padding-top: 5px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px;
+  background-color: var(--secondary);
+  font-family: "Bebas Neue", cursive;
+  color: var(--primary);
+  box-shadow: 5px 5px 12px var(--tertiary);
+  border: 5px solid var(--secondary);
 }
 
 .githubIcon {
-  color: #4078c0;
+  color: black;
 }
 
 .facebookIcon {

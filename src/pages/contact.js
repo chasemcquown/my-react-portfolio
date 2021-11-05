@@ -50,7 +50,7 @@ function ContactForm() {
     return (
         <section>
           <div className="socials">
-          <FontAwesomeIcon className="githubIcon" icon={['fab', 'github']} size="5x" /><FontAwesomeIcon className="linkedinIcon" icon={['fab', 'linkedin']} size="5x"/><FontAwesomeIcon className="facebookIcon" icon={['fab', 'facebook']} size="5x"/>
+          <a href="https://github.com/chasemcquown" target="_blank"><FontAwesomeIcon className="githubIcon" icon={['fab', 'github']} size="5x" /></a><a href="www.linkedin.com/in/chase-mcquown-607a78198" target="_blank"><FontAwesomeIcon className="linkedinIcon" icon={['fab', 'linkedin']} size="5x"/></a><FontAwesomeIcon className="facebookIcon" icon={['fab', 'facebook']} size="5x"/>
           </div>
           <div  id="my-applications" class="contact-style">
             <h4>Questions?</h4>
