@@ -50,7 +50,7 @@ h6 {
 
 h1 {
   font-size: 2.2rem;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9)
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
 }
 
 h2 {
@@ -84,7 +84,6 @@ h6 {
   margin: 100px;
   background-color: #3da3ce;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
 }
@@ -103,7 +102,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: red;
 }
 
 header {
@@ -116,11 +115,16 @@ header a {
 
 button:hover {
   opacity: 0.8;
+  background-color: red;
 }
 
 button[disabled] {
   cursor: default;
   opacity: 0.8;
+}
+
+.portfolio-buttons {
+  margin-left: 135px;
 }
 
 img {
@@ -155,6 +159,7 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  color: red;
 }
 
 nav li {
@@ -322,6 +327,10 @@ header a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header a:hover {
+  color: red;
+}
+
 header nav {
   margin: 7px 0;
 }
@@ -351,10 +360,9 @@ header nav ul li a {
 }
 
 .hero-item {
-  
   height: 450px;
   width: 310px;
-  box-shadow: 0 10px 10px -5px var(--tertiary);
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.7);
 }
 
 .hero-item img {
@@ -452,12 +460,24 @@ header nav ul li a {
   color: black;
 }
 
+.githubIcon:hover {
+  color: red;
+}
+
 .facebookIcon {
   color: #3b5998;
 }
 
+.facebookIcon:hover {
+  color: red;
+}
+
 .linkedinIcon {
   color: #0e76a8;
+}
+
+.linkedinIcon:hover {
+  color: red;
 }
 
 .cert-1 {
@@ -480,8 +500,16 @@ header nav ul li a {
   padding-top: 20px;
 }
 
+.farmgo {
+  margin-bottom: 20px;
+}
+
+.runbuddy {
+  margin-bottom: 20px;
+}
+
 .contact-style h4 {
-  padding-right: 50px;
+  padding-right: 71px;
 }
 
 .section-2 h2,
@@ -538,4 +566,8 @@ a {
 
 .section-2-h2 {
   color: var(--primary);
+}
+
+.my-name:hover {
+  color: red;
 }

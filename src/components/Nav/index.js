@@ -8,7 +8,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h1>
         <a data-testid="link" href="/">
-          <span className='font-link'>
+          <span className='font-link my-name'>
             Chase McQuown
           </span>
         </a>

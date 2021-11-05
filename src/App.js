@@ -10,9 +10,7 @@ import DigitalArt from './pages/digital-art'
 // icons
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
-
-library.add(fab, faCheckSquare, faCoffee)
+library.add(fab)
 
 function App() {
 
@@ -28,10 +26,10 @@ function App() {
         return <Resume/>
       case "Certs":
         return <Certs/>
-      case "Digital-Art":
-        return <DigitalArt/>
       case "Portfolio":
         return <Portfolio/>
+      case "Art":
+        return <DigitalArt/>
       default: 
         return <ContactForm/>
     }

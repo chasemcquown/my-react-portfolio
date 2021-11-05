@@ -1,7 +1,7 @@
 import React from 'react';
 
 import home from '../assets/home-pier.jpg'
-import selfie from '../assets/slc-pic.jpg'
+import selfie from '../assets/chasemcquown.jpg'
 import mammoth from '../assets/mammoth-storm.jpg'
 
 
