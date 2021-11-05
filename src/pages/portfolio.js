@@ -8,8 +8,8 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 // photo imports 
-import FarmGo from '../assets/farmgo.png'
-import RunBuddy from '../assets/runbuddy.png'
+import FarmGo from '../assets/black-farmgo.png'
+import RunBuddy from '../assets/black-runbuddy.png'
 
 function Portfolio() {
   return (
@@ -22,7 +22,6 @@ function Portfolio() {
                 </h2>
               <div className="app-cards">
                 <Card  className="farmgo" sx={{ maxWidth: 345 }}>
-                  <CardActionArea>
                     <CardMedia
                       component="img"
                       height="140"
@@ -33,11 +32,9 @@ function Portfolio() {
                     <CardContent>
                     <span className="font-link"><p>FarmGo was the the third and final team project that I colloborated on while on my 6 month boot camp journey. My responsibilities were mainly confined to the server directory: server file logic, back-end auth logic,  and typeDefs file logic. I also designed the order history page for the front-end.  </p></span>
                     </CardContent>
-                  </CardActionArea>
-                  <button className="portfolio-buttons" href="https://farm-gomarket.herokuapp.com/" target="_blank">view</button>
+                  <a href="https://farm-gomarket.herokuapp.com/" target="_blank"><button className="portfolio-buttons">View</button></a>
                 </Card>
                 <Card className="runbuddy" sx={{ maxWidth: 345 }}>
-                  <CardActionArea>
                     <CardMedia
                       component="img"
                       height="140"
@@ -48,8 +45,7 @@ function Portfolio() {
                     <CardContent>
                       <span className="font-link"><p>RunBuddy is the project that sparked my interest in web development. It was a simple application built via basic HTML and CSS.</p></span>
                     </CardContent>
-                  </CardActionArea>
-                  <button className="portfolio-buttons" href="https://chasemcquown.github.io/run-buddy/" target="_blank">view</button>
+                  <a href="https://chasemcquown.github.io/run-buddy/" target="_blank"><button className="portfolio-buttons">View</button></a>
                 </Card>
               </div>
                     {/* <div class="apps"><a href="https://evening-oasis-97339.herokuapp.com/" target="_blank"><iframe src="https://farm-gomarket.herokuapp.com/" frameborder="0"></iframe></a></div>
