@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 import { validateEmail } from '../utils/helpers';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 function ContactForm() {
 
     // we want the fields empty upon loading, so we set them equal to empty strings
@@ -47,8 +49,11 @@ function ContactForm() {
     //JSX
     return (
         <section>
+          <div className="socials">
+          <FontAwesomeIcon className="githubIcon" icon={['fab', 'github']} size="5x" /><FontAwesomeIcon className="linkedinIcon" icon={['fab', 'linkedin']} size="5x"/><FontAwesomeIcon className="facebookIcon" icon={['fab', 'facebook']} size="5x"/>
+          </div>
           <div  id="my-applications" class="contact-style">
-            <h4>Contact me!</h4>
+            <h4>Questions?</h4>
             <br/>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>

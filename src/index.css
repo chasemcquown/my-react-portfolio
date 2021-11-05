@@ -50,7 +50,7 @@ h6 {
 
 h1 {
   font-size: 2.2rem;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.9)
 }
 
 h2 {
@@ -74,13 +74,6 @@ h5 {
 
 h6 {
   font-size: 1rem;
-}
-
-.hero-item {
-  border: 5px solid var(--tertiary);
-  height: 450px;
-  width: 350px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .section-2 {
@@ -321,7 +314,6 @@ header h1 {
   margin: 0;
   font-size: 36px;
   color: var(--tertiary);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 header a {
@@ -359,14 +351,13 @@ header nav ul li a {
 }
 
 .hero-item {
-  border: 5px solid var(--tertiary);
+  
   height: 450px;
-  width: 350px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  width: 310px;
+  box-shadow: 0 10px 10px -5px var(--tertiary);
 }
 
 .hero-item img {
-  border: 5px solid var(--primary);
   width: 100%;
   height: 100%;
 }
@@ -427,6 +418,33 @@ header nav ul li a {
   box-shadow: 5px 5px 12px var(--tertiary);
   margin-top: 20px;
   padding-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px;
+  background-color: var(--secondary);
+  font-family: "Bebas Neue", cursive;
+  color: var(--primary);
+  box-shadow: 5px 5px 12px var(--tertiary);
+  margin-top: 10px;
+  border: 5px solid var(--secondary);
+  padding-top: 20px;
+}
+
+.githubIcon {
+  color: #4078c0;
+}
+
+.facebookIcon {
+  color: #3b5998;
+}
+
+.linkedinIcon {
+  color: #0e76a8;
 }
 
 .cert-1 {

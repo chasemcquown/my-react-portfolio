@@ -1,8 +1,8 @@
 import React from 'react';
 
-import snowboarding from '../assets/bigbear-gif.GIF'
-import selfie from '../assets/slc-pic.jpg'
-import mammoth from '../assets/mammoth-gif.GIF'
+import spotty from '../assets/bw-spotty.jpg'
+import selfie from '../assets/snowbird.jpeg'
+import mammoth from '../assets/mammoth-storm.jpg'
 
 
 
@@ -11,13 +11,13 @@ function About() {
         <section className="my-5">
           <div class="hero">
         <div class="hero-item hero-item-1">
-          <img src={snowboarding} alt="A selfie of me in Salt Lake City" />
+          <img src={spotty} alt="A selfie of me in Salt Lake City" />
         </div> 
-        <div class="hero-item hero-item-2">
-          <img src={selfie} alt="Snowboarding at Bear Mountain Resort in Big Bear Lake, CA" />
-        </div>
         <div class="hero-item hero-item-3">
           <img src={mammoth} alt="Trees and clouds from Devil's Post Pile in Mammoth Lakes, CA" />
+        </div>
+        <div class="hero-item hero-item-2">
+          <img src={selfie} alt="Snowboarding at Bear Mountain Resort in Big Bear Lake, CA" />
         </div>
       </div>
       <br/>
