@@ -4,9 +4,9 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #F9F9FA;
-  --secondary: #B7BCBD;
-  --tertiary: #55626E;
+  --primary: #f5f7f8;
+  --secondary: #b7bcbd;
+  --tertiary: #55626e;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -63,6 +63,9 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+  font-family: "Bebas Neue", cursive;
+  color: var(--primary);
+  margin-left: 900;
 }
 
 h5 {
@@ -88,10 +91,9 @@ h6 {
   margin: 100px;
   background-color: #3da3ce;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 25px;
+
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
-  border: 5px solid var(--tertiary);
 }
 
 p {
@@ -99,7 +101,6 @@ p {
   font-size: 1.1rem;
   margin-top: 0;
   color: var(--tertiary);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 a {
@@ -144,7 +145,7 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--primary);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
@@ -228,7 +229,7 @@ textarea {
 }
 
 .my-5 {
-  margin-top: var(--spacing-five);
+  /* margin-top: var(--spacing-five); */
   margin-bottom: var(--spacing-five);
 }
 
@@ -276,10 +277,10 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: var(--tertiary);
   border: 0;
   border-radius: 5px;
-  color: #fff;
+  color: var(--primary);
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -345,7 +346,8 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(12, 3, 3, 0.5);
+  font-family: "Bebas Neue", cursive;
+  color: var(--tertiary);
 }
 
 .hero {
@@ -364,7 +366,7 @@ header nav ul li a {
 }
 
 .hero-item img {
-  border: 5px solid #3da3ce;
+  border: 5px solid var(--primary);
   width: 100%;
   height: 100%;
 }
@@ -400,7 +402,6 @@ header nav ul li a {
   padding-bottom: 10px;
   color: var(--tertiary);
   font-size: larger;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .section-2 {
@@ -411,10 +412,25 @@ header nav ul li a {
   margin: 100px;
   background-color: var(--secondary);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 25px;
-  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 12px var(--tertiary);
   margin-top: 20px;
-  border: 5px solid var(--tertiary);
+}
+
+.my-certs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px;
+  background-color: var(--secondary);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 5px 5px 12px var(--tertiary);
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cert-1 {
+  box-shadow: 5px 5px 12px var(--tertiary);
 }
 
 .contact-style {
@@ -423,15 +439,18 @@ header nav ul li a {
   align-items: center;
   justify-content: space-around;
   margin: 100px;
-  background-color: #3da3ce;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 25px;
-  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+  background-color: var(--secondary);
+  font-family: "Bebas Neue", cursive;
+  color: var(--primary);
+  box-shadow: 5px 5px 12px var(--tertiary);
   margin-top: 20px;
-  border: 5px solid var(--tertiary);
+  border: 5px solid var(--secondary);
   padding-right: 500px;
   padding-top: 20px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.contact-style h4 {
+  padding-right: 50px;
 }
 
 .section-2 h2,
@@ -439,8 +458,7 @@ h3 {
   text-align: center;
   margin-bottom: 50px;
   padding-top: 40px;
-  color: var(--tertiary);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  color: var(--primary);
 }
 
 .apps {
@@ -472,14 +490,11 @@ h3 {
   text-decoration: none;
   color: var(--tertiary);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   font-size: larger;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .section-3 h2 {
   color: var(--tertiary);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .section-3 p,
@@ -487,6 +502,9 @@ a {
   text-decoration: none;
   color: var(--tertiary);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   font-size: larger;
+}
+
+.section-2-h2 {
+  color: var(--primary);
 }

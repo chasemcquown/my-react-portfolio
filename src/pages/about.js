@@ -9,11 +9,6 @@ import mammoth from '../assets/mammoth-gif.GIF'
 function About() {
     return (
         <section className="my-5">
-          <h1 id="about">
-            <span className='font-link'>
-              Who am I?
-            </span>
-          </h1>
           <div class="hero">
         <div class="hero-item hero-item-1">
           <img src={snowboarding} alt="A selfie of me in Salt Lake City" />

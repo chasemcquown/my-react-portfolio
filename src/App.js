@@ -4,6 +4,7 @@ import About from './pages/about';
 import ContactForm from './pages/contact';
 import Resume from './pages/resume';
 import Portfolio from './pages/portfolio'
+import Certs from './pages/certifications'
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
         return <About/>
       case "Resume": 
         return <Resume/>
+      case "Certs":
+        return <Certs/>
       case "Portfolio":
         return <Portfolio/>
       default: 

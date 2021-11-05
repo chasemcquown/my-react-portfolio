@@ -12,7 +12,7 @@ function Portfolio() {
       <section>
             <div  id="my-applications" class="section-2">
                 <h2>
-                  <span className='font-link'>
+                  <span className='font-link section-2-h2'>
                     My Applications
                   </span>
                 </h2>
