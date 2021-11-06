@@ -30,7 +30,7 @@ function Portfolio() {
                       alt="FarmGo market"
                     />
                     <CardContent>
-                    <span className="font-link"><p>FarmGo was the the third and final team project that I colloborated on while on my 6 month boot camp journey. My responsibilities were mainly confined to the server directory: server file logic, back-end auth logic,  and typeDefs file logic. I also designed the order history page for the front-end.  </p></span>
+                    <span className="font-link"><p>FarmGo was the the third and final team project that I colloborated on during my 6 month boot camp. My responsibilities were mainly confined to the server directory: server file logic, back-end auth logic,  and typeDefs file logic. I also designed the order history page for the front-end.  </p></span>
                     </CardContent>
                   <a href="https://farm-gomarket.herokuapp.com/" target="_blank"><button className="portfolio-buttons">View</button></a>
                 </Card>
@@ -43,7 +43,7 @@ function Portfolio() {
                       alt="RunBuddy"
                     />
                     <CardContent>
-                      <span className="font-link"><p>RunBuddy is the project that sparked my interest in web development. It was a simple application built via basic HTML and CSS.</p></span>
+                      <span className="font-link"><p>RunBuddy was built via good old fashioned HTML and CSS, and was my first boot camp homework. Despite it's simplicity, it's the assignment that sparked my interest in web development.</p></span>
                     </CardContent>
                   <a href="https://chasemcquown.github.io/run-buddy/" target="_blank"><button className="portfolio-buttons">View</button></a>
                 </Card>

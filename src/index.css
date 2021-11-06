@@ -484,6 +484,10 @@ header nav ul li a {
   box-shadow: 5px 5px 12px var(--tertiary);
 }
 
+.cert-1:hover {
+  box-shadow: 5px 5px 12px 	#89CFF0;
+}
+
 .contact-style {
   display: flex;
   flex-direction: column;
@@ -570,4 +574,8 @@ a {
 
 .my-name:hover {
   color: red;
+}
+
+.about-p {
+  font-size: 40px;
 }

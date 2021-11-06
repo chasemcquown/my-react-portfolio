@@ -22,14 +22,14 @@ function App() {
     switch(currentPage){
       case "About":
         return <About/>
+      case "DigitalArt":
+        return <DigitalArt/>
       case "Resume": 
         return <Resume/>
       case "Certs":
         return <Certs/>
       case "Portfolio":
         return <Portfolio/>
-      case "Art":
-        return <DigitalArt/>
       default: 
         return <ContactForm/>
     }

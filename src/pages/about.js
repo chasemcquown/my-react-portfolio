@@ -23,7 +23,7 @@ function About() {
       <br/>
       <br/>
         <span className='font-link'>
-          <p>Welcome! My name is Chase McQuown, and I'm currently a student of the coding bootcamp at UT Austin. I reside in Huntington Beach, CA and love skateboarding, fishing, snowboarding, hiking, camping, the ocean, and all things outdoors. I also have a newly discovered love/hate relationship with coding.</p>
+          <p className="about-p">Hola! My name is Chase McQuown and I'm officially a University of Texas Coding Boot Camp alumni (check out my certification on the certs page)! I also consider myself quite the outdoorsman. My days off generally consist of fishing, snowboarding, skateboarding, or camping (time permitted). Thanks for stopping by!</p>
         </span>
         </section>
     );
