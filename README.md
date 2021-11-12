@@ -4,7 +4,7 @@
 
 A portfolio built using React to display my deployed applications.
 
-![](/src/assets/screenshot.png)
+![](/src/assets/react-portfolio.png)
 
 ## Built With
 
@@ -15,7 +15,7 @@ A portfolio built using React to display my deployed applications.
 
 ## Website
 
-https://chasemcquown.github.io/react-portfolio/
+https://chasemcquown.github.io/my-react-portfolio/
 
 ## Contribution
 
