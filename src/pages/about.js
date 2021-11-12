@@ -1,8 +1,8 @@
 import React from 'react';
 
-import home from '../assets/home-pier.jpg'
-import selfie from '../assets/chasemcquown.jpg'
-import mammoth from '../assets/mammoth-storm.jpg'
+import theboys from '../assets/theboys.jpg'
+import selfie from '../assets/theranch.jpg'
+import mammoth from '../assets/mammerino.jpg'
 
 
 
@@ -11,19 +11,19 @@ function About() {
         <section className="my-5">
           <div class="hero">
         <div class="hero-item hero-item-1">
-          <img src={home} alt="A selfie of me in Salt Lake City" />
+          <img src={theboys} alt="The boys and I hiking in Mammoth Lakes, CA" />
         </div> 
+        <div class="hero-item hero-item-2">
+          <img src={selfie} alt="A picture of Chase McQuown" />
+        </div>
         <div class="hero-item hero-item-3">
           <img src={mammoth} alt="Trees and clouds from Devil's Post Pile in Mammoth Lakes, CA" />
-        </div>
-        <div class="hero-item hero-item-2">
-          <img src={selfie} alt="Snowboarding at Bear Mountain Resort in Big Bear Lake, CA" />
         </div>
       </div>
       <br/>
       <br/>
         <span className='font-link'>
-          <p className="about-p">Hola! My name is Chase McQuown and I'm officially a University of Texas Coding Boot Camp alumni (check out my certification on the certs page)! I also consider myself quite the outdoorsman. My days off generally consist of fishing, snowboarding, skateboarding, or camping (time permitted). Thanks for stopping by!</p>
+          <p className="about-p">Welcome! My name is Chase McQuown, I and I'm a graduate of the Coding Boot Camp at the University of Texas (my certification is viewable via the certs tab). I love the outdoors, and my time off generally consists of skateboarding, fishing, snowboarding, camping, the beach, or crying because my code isn't working. Anyways, thanks for stopping by! </p>
         </span>
         </section>
     );

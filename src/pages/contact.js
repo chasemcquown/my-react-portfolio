@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 
+// email validation
 import { validateEmail } from '../utils/helpers';
 
+// social icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+// emailjs
+import emailjs from 'emailjs-com'
 
 function ContactForm() {
 
@@ -44,6 +49,22 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+
+        // send email
+        emailjs.sendForm('service_83vl5yi', 'template_c7d8rkq', e.target, 'user_aJ8pc5wX47vPOSYXE8PLa')
+        .then(res => {
+            console.log(res)
+
+            // clear form values
+            document.querySelector('#name-value').value = '';
+            document.querySelector('#email-value').value = '';
+            document.querySelector('#message-value').value = '';
+
+            setErrorMessage("Thanks for reaching out! I'll get back to you as soon as possible.")
+        })
+        .catch(err => {
+            console.log(err)
+        })
     };
    
     //JSX
@@ -60,17 +81,17 @@ function ContactForm() {
                 <div>
                 <label htmlFor="name">Name:</label>
                 {/* NOTE: we can use the onBlur attribute instead of onChange. The onBlur attribute will fire the event once the user has changed focus from the input field, thus allowing the user to finish their entry before validating their input*/}
-                <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                <input id='name-value' type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
                 <br/>
                 <div>
                 <label htmlFor="email">Email address:</label>
-                <input type="email" defaultValue={email} onBlur={handleChange}  name="email" />
+                <input id='email-value' type="email" defaultValue={email} onBlur={handleChange}  name="email" />
                 </div>
                 <br/>
                 <div>
                 <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                <textarea id='message-value' name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 </div>
                 {/* NOTE: If errorMessage has a truthy value, the <div> block will render. If errorMessage doesn't have an error message, the following <div> block doesn't render. The && operator—known as the AND operator—is being used here as a short circuit. If the first value resolves to true, the second expression is evaluated  */}
                 {errorMessage && (
