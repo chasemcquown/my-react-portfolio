@@ -7,7 +7,7 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h1>
-        <a data-testid="link" href="/">
+        <a data-testid="link" href="/my-react-portfolio">
           <span className='font-link my-name'>
             Chase McQuown
           </span>

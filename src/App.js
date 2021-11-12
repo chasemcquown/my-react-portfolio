@@ -6,6 +6,7 @@ import Resume from './pages/resume';
 import Portfolio from './pages/portfolio'
 import Certs from './pages/certifications'
 import DigitalArt from './pages/digital-art'
+import HomePage from './pages/about';
 
 // icons
 import { library } from '@fortawesome/fontawesome-svg-core'
