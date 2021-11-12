@@ -4,7 +4,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #f5f7f8;
+  --primary: #FAF9F6;
   --secondary: #b7bcbd;
   --tertiary: #55626e;
   --light: #fafafa;
@@ -50,7 +50,7 @@ h6 {
 
 h1 {
   font-size: 2.2rem;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+
 }
 
 h2 {
@@ -101,10 +101,6 @@ a {
   font-weight: bold;
 }
 
-a:hover {
-  color: red;
-}
-
 header {
   background: var(--dark);
 }
@@ -115,7 +111,7 @@ header a {
 
 button:hover {
   opacity: 0.8;
-  background-color: red;
+  background-color: #89cff0;
 }
 
 button[disabled] {
@@ -155,11 +151,6 @@ input:focus {
 
 li {
   list-style: none;
-}
-
-nav a:hover {
-  text-decoration: none;
-  color: red;
 }
 
 nav li {
@@ -328,7 +319,7 @@ header a {
 }
 
 header a:hover {
-  color: red;
+  color: #89cff0;
 }
 
 header nav {
@@ -460,23 +451,15 @@ header nav ul li a {
   color: black;
 }
 
-.githubIcon:hover {
-  color: red;
-}
-
 .facebookIcon {
   color: #3b5998;
-}
-
-.facebookIcon:hover {
-  color: red;
 }
 
 .linkedinIcon {
   color: #0e76a8;
 }
 
-.linkedinIcon:hover {
+.icon-hover:hover {
   color: red;
 }
 
@@ -485,7 +468,7 @@ header nav ul li a {
 }
 
 .cert-1:hover {
-  box-shadow: 5px 5px 12px 	#89CFF0;
+  box-shadow: 5px 5px 12px #89cff0;
 }
 
 .contact-style {
@@ -573,7 +556,7 @@ a {
 }
 
 .my-name:hover {
-  color: red;
+  color: #89cff0;
 }
 
 .about-p {
