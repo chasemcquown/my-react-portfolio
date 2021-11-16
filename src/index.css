@@ -860,3 +860,248 @@ a {
     width: 500px;
   }
 }
+
+@media screen and (max-width: 414px) {
+  /* HOMEPAGE STYLING */
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: var(--primary);
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px
+  }
+
+  header h1 {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 36px;
+    color: var(--tertiary);
+  }
+
+  header a {
+    text-decoration: none;
+    color: var(--tertiary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  header a:hover {
+    color: #89cff0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 40px;
+  }
+
+  header nav ul li a {
+    font-weight: lighter;
+    font-size: 10px;
+    font-family: "Bebas Neue", cursive;
+    color: var(--tertiary);
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .hero-item {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 2px;
+    margin-right: 8px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0);
+    padding-top: 0px
+  }
+
+  .hero-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-p {
+    margin-right: 20px;
+    font-size: 25px;
+  }
+
+  /* CONTACT STYLING */
+  .contact-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: none;
+    background-color: var(--primary);
+    font-family: "Bebas Neue", cursive;
+    color: var(--primary);
+    box-shadow: none;
+    margin-top: none;
+    border: none;
+    padding-right: 5px;
+    padding-top: 20px;
+  }
+
+  .contact-style h4 {
+    display: none;
+  }
+
+  #contact-form {
+    width: 100px;
+    margin-right: 250px;
+  }
+
+  #contact-form label {
+    color: var(--secondary);
+  }
+
+  #message-value {
+    width: 300px;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: "Bebas Neue", cursive;
+    color: var(--primary);
+    box-shadow: none;
+    margin-top: none;
+    border: none;
+    padding-top: 0px;
+    margin-right: 25px;
+  }
+
+  #email,
+  #socials {
+    display: none;
+  }
+
+  /* PORTFOLIO STYLING */
+  .section-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 270px;
+    height: 700px;
+  }
+
+  .section-2-h2 {
+    display: none;
+  }
+
+  .farmgo {
+    margin-bottom: 20px;
+    width: 800px;
+  }
+
+  .runbuddy {
+    margin-bottom: 20px;
+  }
+
+  /* RESUME STYLING */
+  .my-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 380px;
+    height: 300px;
+    padding-right: 60px;
+  }
+
+  .download {
+    color: var(--tertiary);
+    padding-right: 2px;
+    font-size: smaller;
+  }
+
+  .resume-img {
+    box-shadow: 5px 5px 12px var(--secondary);
+    border: none;
+  }
+
+  /* CERT STYLING */
+  .my-certs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 350px;
+    height: 250px;
+    padding-right: 60px;
+  }
+
+  .cert-1 {
+    box-shadow: 5px 5px 12px var(--secondary);
+    margin-right: 20px;
+    border: none;
+    width: 340px;
+  }
+
+  /* DIGITAL ART STYLING */
+  .digital-art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 350px;
+    height: 250px;
+    padding-right: 80px;
+  }
+
+  .art-1 {
+    height: 200px;
+    width: 500px;
+    margin-top: 800px;
+  }
+
+  .art-2 {
+    height: 350px;
+    width: 500px;
+  }
+
+  .art-3 {
+    height: 200px;
+    width: 500px;
+  }
+
+  .art-4 {
+    height: 350px;
+    width: 500px;
+  }
+}
+
