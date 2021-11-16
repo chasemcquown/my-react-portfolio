@@ -14,7 +14,7 @@ import RunBuddy from '../assets/black-runbuddy.png'
 function Portfolio() {
   return (
       <section>
-            <div  id="my-applications" class="section-2">
+            <div  id="my-applications" className="section-2">
                 <h2>
                   <span className='font-link section-2-h2'>
                     My Applications

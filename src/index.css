@@ -548,6 +548,9 @@ a {
 .about-p {
   font-size: 40px;
 }
+.download {
+  color: var(--primary);
+}
 
 /* media queries */
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -614,8 +617,8 @@ a {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 375px) {
+  /* HOMEPAGE STYLING */
   header {
-    padding: 5px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -624,6 +627,8 @@ a {
     top: 0;
     background-color: var(--primary);
     padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px
   }
 
   header h1 {
@@ -665,6 +670,7 @@ a {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 0px;
+    padding-top: 0px;
   }
 
   .hero-item {
@@ -674,6 +680,7 @@ a {
     padding-bottom: 2px;
     margin-right: 8px;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0);
+    padding-top: 0px
   }
 
   .hero-item img {
@@ -686,6 +693,7 @@ a {
     font-size: 25px;
   }
 
+  /* CONTACT STYLING */
   .contact-style {
     display: flex;
     flex-direction: column;
@@ -737,5 +745,118 @@ a {
   #email,
   #socials {
     display: none;
+  }
+
+  /* PORTFOLIO STYLING */
+  .section-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 240px;
+    height: 700px;
+  }
+
+  .section-2-h2 {
+    display: none;
+  }
+
+  .farmgo {
+    margin-bottom: 20px;
+    width: 800px;
+  }
+
+  .runbuddy {
+    margin-bottom: 20px;
+  }
+
+  /* RESUME STYLING */
+  .my-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 350px;
+    height: 300px;
+    padding-right: 60px;
+  }
+
+  .download {
+    color: var(--tertiary);
+    padding-right: 20px;
+    margin-right: 25px;
+    font-size: smaller;
+  }
+
+  .resume-img {
+    box-shadow: 5px 5px 12px var(--secondary);
+    margin-right: 50px;
+    border: none;
+  }
+
+  /* CERT STYLING */
+  .my-certs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 350px;
+    height: 250px;
+    padding-right: 60px;
+  }
+
+  .cert-1 {
+    box-shadow: 5px 5px 12px var(--secondary);
+    margin-right: 50px;
+    border: none;
+    width: 340px;
+  }
+
+  /* DIGITAL ART STYLING */
+  .digital-art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 350px;
+    height: 250px;
+    padding-right: 120px;
+  }
+
+  .art-1 {
+    height: 200px;
+    width: 500px;
+    margin-top: 800px;
+  }
+
+  .art-2 {
+    height: 350px;
+    width: 500px;
+  }
+
+  .art-3 {
+    height: 200px;
+    width: 500px;
+  }
+
+  .art-4 {
+    height: 350px;
+    width: 500px;
   }
 }
