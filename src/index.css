@@ -87,6 +87,10 @@ h6 {
   margin-top: 20px;
 }
 
+.resume:hover {
+  box-shadow: 5px 5px 7px #89cff0;
+}
+
 p {
   font-style: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1rem;
@@ -548,8 +552,13 @@ a {
 .about-p {
   font-size: 40px;
 }
+
 .download {
   color: var(--primary);
+}
+
+.cert {
+  box-shadow: none;
 }
 
 /* media queries */
@@ -583,35 +592,264 @@ a {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-  section {
-    padding: 30px 15px;
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: var(--primary);
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px
   }
 
-  .step h3 {
-    flex: 1 100%;
-    text-align: center;
+  header h1 {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 36px;
+    color: var(--tertiary);
   }
 
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
+  header a {
+    text-decoration: none;
+    color: var(--tertiary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  header a:hover {
+    color: #89cff0;
   }
 
-  .step-text {
-    flex: 100%;
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-right: 40px;
   }
 
-  .trainer-bio h3,
-  .trainer-bio h4 {
-    display: block;
+  header nav ul li a {
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: "Bebas Neue", cursive;
+    color: var(--tertiary);
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .hero-item {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 2px;
+    margin-right: 8px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0);
+    padding-top: 0px
+  }
+
+  .hero-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-p {
+    margin-right: 20px;
+    font-size: 25px;
+  }
+
+  /* CONTACT STYLING */
+  .contact-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: none;
+    background-color: var(--primary);
+    font-family: "Bebas Neue", cursive;
+    color: var(--primary);
+    box-shadow: none;
+    margin-top: none;
+    border: none;
+    padding-right: 5px;
+    padding-top: 20px;
+  }
+
+  .contact-style h4 {
+    display: none;
+  }
+
+  #contact-form {
+    width: 100px;
+    margin-right: 590px;
+  }
+
+  #contact-form label {
+    color: var(--secondary);
+  }
+
+  #message-value {
+    width: 500px;
+    border-style: none;
+    margin-bottom: 10px;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: "Bebas Neue", cursive;
+    color: var(--primary);
+    box-shadow: none;
+    margin-top: none;
+    border: none;
+    padding-top: 0px;
+    margin-right: 25px;
+  }
+
+  .githubIcon {
+    height: 85px;
+  }
+
+  .linkedinIcon {
+    height: 85px;
+  }
+
+  .facebookIcon {
+    height: 85px;
+  }
+
+  #email,
+  #socials {
+    display: none;
+  }
+
+  /* PORTFOLIO STYLING */
+  .section-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 180px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 270px;
+    height: 700px;
+  }
+
+  .section-2-h2 {
+    display: none;
+  }
+
+  .farmgo {
+    margin-bottom: 20px;
+    width: 800px;
+  }
+
+  .runbuddy {
+    margin-bottom: 20px;
+  }
+
+  /* RESUME STYLING */
+  .my-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 390px;
+    height: 300px;
+  }
+
+  .download {
+    color: var(--tertiary);
+    padding-right: 20px;
+    font-size: smaller;
+  }
+
+  .resume-img {
+    box-shadow: 5px 5px 12px var(--primary);
+  }
+
+  .resume-img:hover {
+    box-shadow: 5px 5px 7px #89cff0
+  }
+
+  #resume-link {
+    margin-left: 700px;
+  }
+
+  /* CERT STYLING */
+  .my-certs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 350px;
+    height: 250px;
+    padding-right: 60px;
+  }
+
+  .cert-1 {
+    box-shadow: 5px 5px 12px var(--secondary);
+    margin-right: 20px;
+    border: none;
+    width: 340px;
+  }
+
+  /* DIGITAL ART STYLING */
+  .digital-art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 12px var(--primary);
+    width: 350px;
+    height: 250px;
+    padding-right: 80px;
+  }
+
+  .art-1 {
+    height: 200px;
+    width: 500px;
+  }
+
+  .art-2 {
+    height: 350px;
+    width: 500px;
+  }
+
+  .art-3 {
+    height: 200px;
+    width: 500px;
+  }
+
+  .art-4 {
+    height: 350px;
+    width: 500px;
+    margin-top: 800px;
   }
 }
 
@@ -896,7 +1134,7 @@ a {
   header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
     padding-right: 40px;
@@ -904,7 +1142,7 @@ a {
 
   header nav ul li a {
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Bebas Neue", cursive;
     color: var(--tertiary);
   }
@@ -970,13 +1208,15 @@ a {
 
   #message-value {
     width: 300px;
+    border-style: none;
+    margin-bottom: 10px;
   }
 
   .socials {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0px;
     background-color: var(--primary);
     font-family: "Bebas Neue", cursive;
@@ -986,6 +1226,18 @@ a {
     border: none;
     padding-top: 0px;
     margin-right: 25px;
+  }
+
+  .githubIcon {
+    height: 65px;
+  }
+
+  .linkedinIcon {
+    height: 65px;
+  }
+
+  .facebookIcon {
+    height: 65px;
   }
 
   #email,
@@ -1030,20 +1282,23 @@ a {
     background-color: var(--primary);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 5px 5px 12px var(--primary);
-    width: 380px;
+    width: 390px;
     height: 300px;
-    padding-right: 60px;
+    margin-right: 100px;
   }
 
   .download {
     color: var(--tertiary);
-    padding-right: 2px;
+    padding-right: 20px;
     font-size: smaller;
   }
 
   .resume-img {
-    box-shadow: 5px 5px 12px var(--secondary);
-    border: none;
+    box-shadow: 5px 5px 12px var(--primary);
+  }
+
+  .resume-img:hover {
+    box-shadow: 5px 5px 7px #89cff0
   }
 
   /* CERT STYLING */
@@ -1086,7 +1341,6 @@ a {
   .art-1 {
     height: 200px;
     width: 500px;
-    margin-top: 800px;
   }
 
   .art-2 {
@@ -1102,6 +1356,7 @@ a {
   .art-4 {
     height: 350px;
     width: 500px;
+    margin-top: 800px;
   }
 }
 

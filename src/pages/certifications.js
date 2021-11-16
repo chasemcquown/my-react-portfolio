@@ -12,7 +12,7 @@ function Certifications() {
                     Cerifications
                   </span>
                 </h2>
-                    <a className="cert-1" href="https://drive.google.com/file/d/1sx-t49Y1_QjwUdUWqmWXIpPzMJSI6NmI/view?usp=sharing" target="_blank" download>
+                    <a className="cert-1 cert" href="https://drive.google.com/file/d/1sx-t49Y1_QjwUdUWqmWXIpPzMJSI6NmI/view?usp=sharing" target="_blank" download>
                         <img src={codingCert} alt="W3Schools" width="500" height="350"/>
                     </a>
                 <br></br>
