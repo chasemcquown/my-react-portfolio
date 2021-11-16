@@ -433,19 +433,6 @@ header nav ul li a {
   padding-top: 5px;
 }
 
-.social-links {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin: 100px;
-  background-color: var(--secondary);
-  font-family: "Bebas Neue", cursive;
-  color: var(--primary);
-  box-shadow: 5px 5px 12px var(--tertiary);
-  border: 5px solid var(--secondary);
-}
-
 .githubIcon {
   color: black;
 }
@@ -586,31 +573,8 @@ a {
     font-size: 20px;
   }
 
-  footer h2,
-  footer div {
-    text-align: center;
-    width: 100%;
-  }
-
-  .hero-cta,
-  .hero-form {
-    width: 100%;
-  }
-
-  .hero-cta {
-    text-align: center;
-  }
-
   .section-title {
     width: 80%;
-  }
-
-  .trainer {
-    flex: 0 70%;
-  }
-
-  .contact-info iframe {
-    flex: 1 100%;
   }
 }
 
@@ -659,50 +623,56 @@ a {
     position: -webkit-sticky;
     top: 0;
     background-color: var(--primary);
+    padding-bottom: 0px;
   }
-  
+
   header h1 {
     font-weight: bold;
-    margin: 0;
+    margin-bottom: 0px;
     font-size: 36px;
     color: var(--tertiary);
   }
-  
+
   header a {
     text-decoration: none;
     color: var(--tertiary);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  
+
   header a:hover {
     color: #89cff0;
   }
-  
-  header nav {
-    margin: 7px 0;
-  }
-  
+
   header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding-right: 40px;
   }
-  
+
   header nav ul li a {
-    padding: 10px 15px;
     font-weight: lighter;
     font-size: 10px;
     font-family: "Bebas Neue", cursive;
     color: var(--tertiary);
   }
-  
+
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0px;
+  }
+
   .hero-item {
     height: 100%;
-    width: 100%px;
+    width: 100%;
+    margin-top: 0px;
     padding-bottom: 2px;
-    margin-right: 50px;
+    margin-right: 8px;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0);
   }
 
@@ -712,35 +682,60 @@ a {
   }
 
   .about-p {
-    margin-right: 50px;
+    margin-right: 20px;
     font-size: 25px;
   }
 
-  /* .hero-form button {
-    width: 100%;
+  .contact-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: none;
+    background-color: var(--primary);
+    font-family: "Bebas Neue", cursive;
+    color: var(--primary);
+    box-shadow: none;
+    margin-top: none;
+    border: none;
+    padding-right: 5px;
+    padding-top: 20px;
   }
 
-  .section-title {
-    width: 95%;
+  .contact-style h4 {
+    display: none;
   }
 
-  .intro p {
-    width: 100%;
+  #contact-form {
+    width: 100px;
+    margin-right: 190px;
   }
 
-  .trainer {
-    flex: 0 100%;
+  #contact-form label {
+    color: var(--secondary);
   }
 
-  .contact-info {
-    text-align: center;
+  #message-value {
+    width: 300px;
   }
 
-  .contact-info > * {
-    flex: 0 100%;
+  .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: var(--primary);
+    font-family: "Bebas Neue", cursive;
+    color: var(--primary);
+    box-shadow: none;
+    margin-top: none;
+    border: none;
+    padding-top: 0px;
   }
 
-  .contact-form {
-    order: 3;
-  } */
+  #email,
+  #socials {
+    display: none;
+  }
 }

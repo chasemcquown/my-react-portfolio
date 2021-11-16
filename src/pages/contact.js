@@ -71,11 +71,11 @@ function ContactForm() {
     return (
         <section>
           <div className="socials">
-          <span className="font-link"><h4>Socials:</h4></span>
-          <a href="https://github.com/chasemcquown" target="_blank"><FontAwesomeIcon className="githubIcon icon-hover" icon={['fab', 'github']} size="5x" /></a><a href="https://www.linkedin.com/in/chase-mcquown-607a78198/?trk=people_directory" target="_blank"><FontAwesomeIcon className="linkedinIcon icon-hover"  icon={['fab', 'linkedin']} size="5x"/></a><a href="https://twitter.com/chasemcquown" target="_blank"><FontAwesomeIcon className="facebookIcon icon-hover" icon={['fab', 'twitter']} size="5x"/></a>
+            <span id="socials" className="font-link"><h4>Socials:</h4></span>
+            <a href="https://github.com/chasemcquown" target="_blank"><FontAwesomeIcon className="githubIcon icon-hover" icon={['fab', 'github']} size="5x" /></a><a href="https://www.linkedin.com/in/chase-mcquown-607a78198/?trk=people_directory" target="_blank"><FontAwesomeIcon className="linkedinIcon icon-hover"  icon={['fab', 'linkedin']} size="5x"/></a><a href="https://twitter.com/chasemcquown" target="_blank"><FontAwesomeIcon className="facebookIcon icon-hover" icon={['fab', 'twitter']} size="5x"/></a>
           </div>
-          <div  id="my-applications" class="contact-style">
-            <h4>Email me:</h4>
+          <div className="contact-style">
+            <h4 id="email">Email me:</h4>
             <br/>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
